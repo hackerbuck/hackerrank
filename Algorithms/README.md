@@ -14,6 +14,10 @@
 
 * For sorting use `arr.sort()` for in-place sorting and `arr.sorted()` list of sorted array
 
-> **NOTE** Sometimes long integer to str coversion is too slow , so use `arr.sort(key=int)` on interger string and magic u get sorted integer strings .
+> **NOTE** Sometimes long integer to str coversion is too slow , so use **`arr.sort(key=int)`** on interger string and magic u get sorted integer strings .
 
 * `arr.index(ele)` returns index where element is found.
+
+* Insertion sort , think that as like water :) , heavier element push down --> , lighter element goes up  <---
+
+> It's usefull when u are given an array is almost sorted and u have to sort only few elements !
